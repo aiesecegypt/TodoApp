@@ -7,4 +7,4 @@ php:
   - 5.7
   - hhvm
 
-  script: vendor/bin/phpunit
+script: vendor/bin/phpunit
