@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('laravel');
 });
+
+Route::get('/feedback', function (){
+    return "You've been clicked, punk.";
+});
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
