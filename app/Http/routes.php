@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('laravel');
+    return view('laravel')
 });
 
 Route::get('/feedback', function (){
